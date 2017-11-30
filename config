@@ -14,3 +14,5 @@
 1101 OUT A
 1110 JP P, addr
 1111 JP M, addr
+10000 LD A, addr
+10001 LD addr, A
