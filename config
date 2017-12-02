@@ -16,3 +16,5 @@
 01111 JP M, addr
 10000 LD A, addr
 10001 LD addr, A
+10010 LD A,(B)
+10011 LD (B),A
