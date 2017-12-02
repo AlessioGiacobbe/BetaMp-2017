@@ -18,3 +18,4 @@
 10001 LD addr, A
 10010 LD A,(B)
 10011 LD (B),A
+10100 JP Z, addr
