@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project source="2.11.3.6.exe" version="1.0">
+This file is intended to be loaded by Logisim https://logisim.altervista.org
+<lib desc="#Wiring" name="0">
+    <tool name="Splitter">
+      <a name="facing" val="south"/>
+    </tool>
+    <tool name="Tunnel">
+      <a name="facing" val="south"/>
+    </tool>
+  </lib>
+  <lib desc="#Gates" name="1">
+    <tool name="OR Gate">
+      <a name="facing" val="south"/>
+    </tool>
+    <tool name="NAND Gate">
+      <a name="facing" val="south"/>
+    </tool>
+    <tool name="NOR Gate">
+      <a name="facing" val="north"/>
+    </tool>
+    <tool name="Controlled Inverter">
+      <a name="facing" val="south"/>
+    </tool>
+  </lib>
+  <lib desc="#Plexers" name="2">
+    <tool name="Multiplexer">
+      <a name="enable" val="false"/>
+    </tool>
+    <tool name="Demultiplexer">
+      <a name="enable" val="false"/>
+    </tool>
+    <tool name="Decoder">
+      <a name="enable" val="false"/>
+    </tool>
+  </lib>
+  <lib desc="#Arithmetic" name="3"/>
+  <lib desc="#Memory" name="4">
+    <tool name="Register">
+      <a name="width" val="4"/>
+    </tool>
+    <tool name="ROM">
+      <a name="contents">addr/data: 8 8
+0
+</a>
+    </tool>
+  </lib>
+  <lib desc="#I/O" name="5">
+    <tool name="Button">
+      <a name="facing" val="south"/>
+    </tool>
+    <tool name="LED">
+      <a name="facing" val="north"/>
+    </tool>
+  </lib>
+  <lib desc="#Base" name="6">
+    <tool name="Text Tool">
+      <a name="text" val=""/>
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="color" val="#000000"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+  </lib>
+  <lib desc="file#ß2015.circ" name="7"/>
+  <main name="Microcalc β2015"/>
+  <options>
+    <a name="gateUndefined" val="ignore"/>
+    <a name="simlimit" val="1000"/>
+    <a name="simrand" val="0"/>
+  </options>
+  <mappings>
+    <tool lib="6" map="Button2" name="Menu Tool"/>
+    <tool lib="6" map="Button3" name="Menu Tool"/>
+    <tool lib="6" map="Ctrl Button1" name="Menu Tool"/>
+  </mappings>
+  <toolbar>
+    <tool lib="6" name="Poke Tool"/>
+    <tool lib="6" name="Edit Tool"/>
+    <tool lib="6" name="Text Tool">
+      <a name="text" val=""/>
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="color" val="#000000"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+    <sep/>
+    <tool lib="0" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="width" val="5"/>
+      <a name="tristate" val="false"/>
+    </tool>
+    <tool lib="0" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="output" val="true"/>
+      <a name="width" val="5"/>
+      <a name="labelloc" val="east"/>
+    </tool>
+    <tool lib="1" name="NOT Gate"/>
+    <tool lib="1" name="AND Gate">
+      <a name="facing" val="west"/>
+    </tool>
+    <tool lib="1" name="OR Gate"/>
+  </toolbar>
+  <circuit name="Microcalc β2015">
+    <a name="circuit" val="Microcalc β2015"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="clabelcolor" val="#000000"/>
+    <wire from="(400,250)" to="(400,320)"/>
+    <wire from="(920,120)" to="(920,260)"/>
+    <wire from="(240,260)" to="(240,520)"/>
+    <wire from="(740,120)" to="(740,260)"/>
+    <wire from="(400,320)" to="(450,320)"/>
+    <wire from="(480,320)" to="(530,320)"/>
+    <wire from="(280,440)" to="(330,440)"/>
+    <wire from="(290,260)" to="(290,460)"/>
+    <wire from="(150,230)" to="(200,230)"/>
+    <wire from="(640,260)" to="(640,520)"/>
+    <wire from="(660,260)" to="(660,520)"/>
+    <wire from="(320,220)" to="(320,240)"/>
+    <wire from="(280,240)" to="(280,390)"/>
+    <wire from="(230,210)" to="(470,210)"/>
+    <wire from="(950,120)" to="(950,210)"/>
+    <wire from="(360,450)" to="(780,450)"/>
+    <wire from="(760,330)" to="(870,330)"/>
+    <wire from="(290,230)" to="(290,260)"/>
+    <wire from="(290,460)" to="(330,460)"/>
+    <wire from="(290,260)" to="(330,260)"/>
+    <wire from="(360,250)" to="(400,250)"/>
+    <wire from="(150,550)" to="(890,550)"/>
+    <wire from="(140,520)" to="(240,520)"/>
+    <wire from="(80,200)" to="(110,200)"/>
+    <wire from="(870,290)" to="(870,330)"/>
+    <wire from="(230,220)" to="(320,220)"/>
+    <wire from="(660,520)" to="(1000,520)"/>
+    <wire from="(110,240)" to="(200,240)"/>
+    <wire from="(660,260)" to="(690,260)"/>
+    <wire from="(360,380)" to="(700,380)"/>
+    <wire from="(910,290)" to="(910,450)"/>
+    <wire from="(140,220)" to="(140,520)"/>
+    <wire from="(1000,120)" to="(1000,280)"/>
+    <wire from="(320,240)" to="(330,240)"/>
+    <wire from="(760,210)" to="(760,330)"/>
+    <wire from="(250,370)" to="(330,370)"/>
+    <wire from="(780,260)" to="(780,450)"/>
+    <wire from="(470,210)" to="(470,260)"/>
+    <wire from="(880,280)" to="(890,280)"/>
+    <wire from="(910,290)" to="(920,290)"/>
+    <wire from="(150,230)" to="(150,550)"/>
+    <wire from="(890,280)" to="(890,550)"/>
+    <wire from="(810,280)" to="(810,290)"/>
+    <wire from="(140,220)" to="(200,220)"/>
+    <wire from="(230,230)" to="(290,230)"/>
+    <wire from="(80,250)" to="(200,250)"/>
+    <wire from="(760,210)" to="(950,210)"/>
+    <wire from="(280,390)" to="(330,390)"/>
+    <wire from="(230,240)" to="(280,240)"/>
+    <wire from="(1000,300)" to="(1000,520)"/>
+    <wire from="(880,260)" to="(920,260)"/>
+    <wire from="(950,290)" to="(990,290)"/>
+    <wire from="(530,300)" to="(530,320)"/>
+    <wire from="(620,260)" to="(640,260)"/>
+    <wire from="(640,520)" to="(660,520)"/>
+    <wire from="(780,260)" to="(800,260)"/>
+    <wire from="(720,260)" to="(740,260)"/>
+    <wire from="(110,200)" to="(110,240)"/>
+    <wire from="(810,280)" to="(840,280)"/>
+    <wire from="(700,280)" to="(700,380)"/>
+    <wire from="(230,250)" to="(250,250)"/>
+    <wire from="(470,260)" to="(480,260)"/>
+    <wire from="(780,450)" to="(910,450)"/>
+    <wire from="(240,520)" to="(640,520)"/>
+    <wire from="(230,260)" to="(240,260)"/>
+    <wire from="(280,390)" to="(280,440)"/>
+    <wire from="(800,290)" to="(810,290)"/>
+    <wire from="(830,260)" to="(840,260)"/>
+    <wire from="(250,250)" to="(250,370)"/>
+    <comp lib="0" loc="(80,200)" name="Clock">
+      <a name="label" val="clock"/>
+    </comp>
+    <comp lib="5" loc="(80,250)" name="Button">
+      <a name="label" val="RESET"/>
+    </comp>
+    <comp lib="4" loc="(620,260)" name="ROM">
+      <a name="addrWidth" val="5"/>
+      <a name="dataWidth" val="5"/>
+      <a name="contents">addr/data: 5 5
+c 4 1 0 6 4 c 5
+1 0 3 5 1 0 7 a
+e e 8 b 16 0 d
+</a>
+    </comp>
+    <comp lib="1" loc="(1000,300)" name="Controlled Buffer">
+      <a name="facing" val="south"/>
+      <a name="width" val="5"/>
+    </comp>
+    <comp lib="0" loc="(740,120)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="output" val="true"/>
+      <a name="width" val="5"/>
+      <a name="label" val="OUTPUT"/>
+    </comp>
+    <comp lib="1" loc="(830,260)" name="NOT Gate">
+      <a name="size" val="30"/>
+    </comp>
+    <comp lib="1" loc="(950,290)" name="NOT Gate">
+      <a name="size" val="30"/>
+    </comp>
+    <comp lib="7" loc="(230,210)" name="ß2015">
+      <a name="label" val="β2015"/>
+      <a name="labelfont" val="Dialog bold 14"/>
+      <a name="labelcolor" val="#ff0000"/>
+    </comp>
+    <comp lib="0" loc="(800,290)" name="Constant"/>
+    <comp lib="1" loc="(480,320)" name="NOT Gate">
+      <a name="size" val="30"/>
+    </comp>
+    <comp lib="1" loc="(360,380)" name="OR Gate"/>
+    <comp lib="4" loc="(720,260)" name="Register">
+      <a name="width" val="5"/>
+    </comp>
+    <comp lib="0" loc="(920,120)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="5" loc="(950,120)" name="Button">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="4" loc="(880,260)" name="T Flip-Flop">
+      <a name="Pre/Clr Positions" val="LEGACY"/>
+      <a name="enable" val="true"/>
+      <a name="NewFFLayout" val="false"/>
+    </comp>
+    <comp lib="6" loc="(411,81)" name="Text">
+      <a name="text" val="V 1.3"/>
+      <a name="font" val="SansSerif bold 18"/>
+      <a name="color" val="#ff0000"/>
+    </comp>
+    <comp lib="1" loc="(360,250)" name="OR Gate"/>
+    <comp lib="0" loc="(1000,120)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="width" val="5"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="INPUT"/>
+    </comp>
+    <comp lib="1" loc="(360,450)" name="OR Gate"/>
+  </circuit>
+</project>
