@@ -20,3 +20,4 @@
 10011 LD (B),A
 10100 JP Z, addr
 10101 JP NZ, addr
+10110 LD B,n
